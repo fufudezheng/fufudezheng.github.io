@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>电机与拖动</title>
+    <link href="/2022/11/13/motor/"/>
+    <url>/2022/11/13/motor/</url>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p><h1 id="1磁路"><a href="#1磁路" class="headerlink" title="1磁路"></a>1磁路</h1><h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><ul><li><p>一些简单的磁路物理知识，记住磁路和电路的类比方式去理解<br>$$<br>B&#x3D; \mu H\<br>\oint Hdl&#x3D;\sum Ni<br>$$</p></li><li></li><li><p>磁路基本定理</p><ul><li><p>$$<br>F&#x3D;Ni&#x3D;\Phi R_m&#x3D;\Phi&#x2F; \Lambda\<br>R_m&#x3D;l&#x2F;(\mu A):磁阻，\Lambda:磁导<br>$$</p><p>$$ \Phi 类似电路里的i，在一个磁路里一般认为 \Phi 是相同的，但是不同的材料其磁阻不同,导致有不同的磁动势$$</p></li><li><p>磁路第一定律：穿过闭合面$$ \sum \Phi &#x3D;0$$</p></li><li><p>磁路第二定律：一段磁路上的总磁动势可以由各段累加计算$$ \sum H_il_i$$</p></li></ul></li><li><p>铁磁材料及特性：</p><p><img src="/2022/11/13/motor/image-20221113182156873.png" alt="image-20221113182156873"></p><p>软磁体：磁滞曲线比较窄，磁导率高</p><p>硬磁体：磁滞曲线宽，常做永磁体</p><p><img src="/2022/11/13/motor/image-20221113182209053.png" alt="image-20221113182209053"></p><p>除了在空气中，磁化曲线都是非线性的</p></li><li><p>磁损耗：</p><ul><li><p>磁滞损耗：$$p_h&#x3D;C_hfB_m^nV$$</p><p>交变磁场中，磁畴反复被磁化而互相摩擦，产生热量</p></li><li><p>涡流损耗：$$ p_e&#x3D;Ce\Delta^2f^2B_m^2V$$</p><p>磁通变化&gt;磁动势&gt;环流&gt;产生热量</p></li><li><p>相加为铁心损耗P_Fe</p><p>$$ P_{Fe}&#x3D;C_{Fe}f^{1.3}B_m^2G$$</p></li></ul></li></ul><h2 id="直流磁路的计算"><a href="#直流磁路的计算" class="headerlink" title="直流磁路的计算"></a>直流磁路的计算</h2><ul><li>本身比较简单，运用两个磁路定律，类似电路计算</li><li>注意气隙有一个气隙效应，计算时长宽各加$$ \delta$$即可</li></ul><h1 id="2直流电机"><a href="#2直流电机" class="headerlink" title="2直流电机"></a>2直流电机</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>所学</category>
+      
+      <category>课程</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>桂林山水甲天下，阳朔山水甲桂林</title>
     <link href="/2022/11/13/guiling/"/>
     <url>/2022/11/13/guiling/</url>
