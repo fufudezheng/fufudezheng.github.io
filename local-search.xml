@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>AI基础</title>
+    <link href="/2022/11/15/learn-AI/"/>
+    <url>/2022/11/15/learn-AI/</url>
+    
+    <content type="html"><![CDATA[<h1 id="数据学习和机器学习"><a href="#数据学习和机器学习" class="headerlink" title="数据学习和机器学习"></a>数据学习和机器学习</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul><li><p>定义：人工智能的一个分支，从事研究和构建可以从数据或者环境中学习的算法，用以改善性能或者做出预测</p></li><li><p>主要类型：类比人类的学习</p><p><img src="/2022/11/15/learn-AI/image-20221115082953697.png" alt="image-20221115082953697"></p><ul><li>演绎学习</li><li>归纳学习</li></ul></li><li><p>与人工智能关系</p><p>人工智能的分支</p><p><img src="/2022/11/15/learn-AI/image-20221115083201194.png" alt="image-20221115083201194"></p><p>人工智能：智能主题三要素：感受器,执行器，转换函数（将感知映射为动作）</p><p>机器学习：</p></li><li><p>准则：</p><ul><li>可能近似正确</li><li>没有免费午餐定理</li></ul></li></ul><h2 id="发展"><a href="#发展" class="headerlink" title="发展"></a>发展</h2><h2 id="任务、范式、框架"><a href="#任务、范式、框架" class="headerlink" title="任务、范式、框架"></a>任务、范式、框架</h2><p>​<strong>机器学习的三个视角，学习的任务（Task）、范式（Paradigms）、框架（Frameworks）</strong></p><ul><li><p>学习任务：机器学习可以解决的问题（做什么）</p><p><img src="/2022/11/15/learn-AI/image-20221115081127960.png" alt="image-20221115081127960"></p></li><li><p>学习范式：机器学习的情景模式或者算法体系。区分依据是如何从数据中学习以及和环境互动（什么形式）</p><p><img src="/2022/11/15/learn-AI/image-20221115081705639.png" alt="image-20221115081705639"></p></li><li><p>学习框架：基于某种学习范式去完成某个学习任务的算法设计或者概念框架。（用什么方法去做）</p><p><img src="/2022/11/15/learn-AI/image-20221115082152271.png" alt="image-20221115082152271"></p></li></ul><p><img src="/2022/11/15/learn-AI/image-20221115082847104.png" alt="image-20221115082847104"></p><h2 id="学习任务"><a href="#学习任务" class="headerlink" title="学习任务"></a>学习任务</h2><p><img src="/2022/11/15/learn-AI/image-20221115083044333.png" alt="image-20221115083044333"></p><p><img src="/2022/11/15/learn-AI/image-20221115083316157.png" alt="image-20221115083316157"></p><ul><li>分类：</li></ul><p>  三要素：1）数据划分类别2）类别已知3）用样本进行训练</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>所学</category>
+      
+      <category>课程</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>一些零零散散的句子</title>
     <link href="/2022/11/14/read-polan/"/>
     <url>/2022/11/14/read-polan/</url>
