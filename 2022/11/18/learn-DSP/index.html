@@ -16,30 +16,31 @@
   <meta name="author" content="ffdz">
   <meta name="keywords" content="">
   
-    <meta name="description" content="数据学习和机器学习简介 定义：人工智能的一个分支，从事研究和构建可以从数据或者环境中学习的算法，用以改善性能或者做出预测  主要类型：类比人类的学习   演绎学习 归纳学习   与人工智能关系 人工智能的分支  人工智能：智能主题三要素：感受器,执行器，转换函数（将感知映射为动作） 机器学习：  准则：  可能近似正确 没有免费午餐定理    发展任务、范式、框架​		机器学习的三个视角，学习的任">
+    <meta name="description" content="数字信号处理部分截图来自武大课件  2018年秋《数字信号处理》——余磊-武汉大学信号处理研究室 (whu.edu.cn)  离散时间信号和离散时间系统离散时间信号性质 对称性：    周期性 $$如果2\pi&#x2F;W_0&#x3D;N \in Z,一个周期中有N个抽样周期，w_0N&#x3D;2\pi,周期显然为N\ 如果2\pi&#x2F;W_0&#x3D;N&#x2F;M \in Z即">
 <meta property="og:type" content="article">
-<meta property="og:title" content="AI基础">
-<meta property="og:url" content="https://www.fufudezheng.site/2022/11/15/learn-AI/index.html">
+<meta property="og:title" content="数字信号处理">
+<meta property="og:url" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/index.html">
 <meta property="og:site_name" content="blog of ffdz">
-<meta property="og:description" content="数据学习和机器学习简介 定义：人工智能的一个分支，从事研究和构建可以从数据或者环境中学习的算法，用以改善性能或者做出预测  主要类型：类比人类的学习   演绎学习 归纳学习   与人工智能关系 人工智能的分支  人工智能：智能主题三要素：感受器,执行器，转换函数（将感知映射为动作） 机器学习：  准则：  可能近似正确 没有免费午餐定理    发展任务、范式、框架​		机器学习的三个视角，学习的任">
+<meta property="og:description" content="数字信号处理部分截图来自武大课件  2018年秋《数字信号处理》——余磊-武汉大学信号处理研究室 (whu.edu.cn)  离散时间信号和离散时间系统离散时间信号性质 对称性：    周期性 $$如果2\pi&#x2F;W_0&#x3D;N \in Z,一个周期中有N个抽样周期，w_0N&#x3D;2\pi,周期显然为N\ 如果2\pi&#x2F;W_0&#x3D;N&#x2F;M \in Z即">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115082953697.png">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115083201194.png">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115081127960.png">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115081705639.png">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115082152271.png">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115082847104.png">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115083044333.png">
-<meta property="og:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115083316157.png">
-<meta property="article:published_time" content="2022-11-15T00:00:50.000Z">
-<meta property="article:modified_time" content="2022-11-15T01:33:09.293Z">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118105340892.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118105353343.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221010195959536.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118113624536.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118113751406.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118114447638.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118114537422.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118114626416.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221010202606205.png">
+<meta property="article:published_time" content="2022-11-18T02:24:31.000Z">
+<meta property="article:modified_time" content="2022-11-18T04:04:24.543Z">
 <meta property="article:author" content="ffdz">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.fufudezheng.site/2022/11/15/learn-AI/image-20221115082953697.png">
+<meta name="twitter:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118105340892.png">
   
   
   
-  <title>AI基础 - blog of ffdz</title>
+  <title>数字信号处理 - blog of ffdz</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,7 +205,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="AI基础"></span>
+            <span id="subtitle" data-typed-text="数字信号处理"></span>
           
         </div>
 
@@ -215,8 +216,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-11-15 08:00" pubdate>
-          November 15, 2022 am
+        <time datetime="2022-11-18 10:24" pubdate>
+          November 18, 2022 am
         </time>
       </span>
     
@@ -227,7 +228,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          356 words
+          1.5k words
         
       </span>
     
@@ -238,7 +239,7 @@
         
         
         
-          3 mins
+          13 mins
         
       </span>
     
@@ -276,53 +277,94 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">AI基础</h1>
+            <h1 style="display: none">数字信号处理</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="数据学习和机器学习"><a href="#数据学习和机器学习" class="headerlink" title="数据学习和机器学习"></a>数据学习和机器学习</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
-<li><p>定义：人工智能的一个分支，从事研究和构建可以从数据或者环境中学习的算法，用以改善性能或者做出预测</p>
+                <h1 id="数字信号处理"><a href="#数字信号处理" class="headerlink" title="数字信号处理"></a>数字信号处理</h1><p>部分截图来自武大课件</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://dsp.whu.edu.cn/info/1040/1113.htm">2018年秋《数字信号处理》——余磊-武汉大学信号处理研究室 (whu.edu.cn)</a></p>
+</blockquote>
+<h2 id="离散时间信号和离散时间系统"><a href="#离散时间信号和离散时间系统" class="headerlink" title="离散时间信号和离散时间系统"></a>离散时间信号和离散时间系统</h2><h3 id="离散时间信号"><a href="#离散时间信号" class="headerlink" title="离散时间信号"></a>离散时间信号</h3><h4 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h4><ul>
+<li><p>对称性：</p>
+<p><img src="/2022/11/18/learn-DSP/image-20221118105340892.png" srcset="/img/loading.gif" lazyload alt="image-20221118105340892"></p>
+<p><img src="/2022/11/18/learn-DSP/image-20221118105353343.png" srcset="/img/loading.gif" lazyload alt="image-20221118105353343"></p>
 </li>
-<li><p>主要类型：类比人类的学习</p>
-<p><img src="/2022/11/15/learn-AI/image-20221115082953697.png" srcset="/img/loading.gif" lazyload alt="image-20221115082953697"></p>
+<li><p>周期性</p>
+<p>$$如果2\pi&#x2F;W_0&#x3D;N \in Z,一个周期中有N个抽样周期，w_0<em>N&#x3D;2\pi,周期显然为N\<br> 如果2\pi&#x2F;W_0&#x3D;N&#x2F;M \in Z即W_0&#x3D;\frac M N2\pi,w_0</em> N&#x3D;M*2\pi,周期显然为N,且一个周期中包含三个正弦周期\<br> 当2\pi&#x2F;W_0为无理数，显然无法w_0×有理数得到2\pi；所以非周期信号 $$</p>
+<p>与连续信号不同，正弦序列不一定为周期信号，取决于2Π&#x2F;w0的值：<strong>或者说w0×多少等于2Π</strong>-</p>
+</li>
+<li><p>这部分其实涉及到一个数字频率和模拟频率的问题，经常被这两个概念搞混<br>$$<br>对模拟信号x_a(t)&#x3D;sin(\Omega_0t)进行T周期采样得到序列x(n)&#x3D;sin(w_0n)\<br>\Omega_0对应到了w_0&#x3D;\Omega_0T,可以看作一种对模拟角频率的离散化\<br>或者\Omega _0T&#x3D;2\pi \frac ff_s,也可以说是抽样频率f_s对模拟角频率的一种归一化\<br>不过我还是觉得前者的离散化更好理解<br>$$</p>
+</li>
+</ul>
+<h4 id="运算与操作"><a href="#运算与操作" class="headerlink" title="运算与操作"></a>运算与操作</h4><ul>
+<li><p>卷积：</p>
 <ul>
-<li>演绎学习</li>
-<li>归纳学习</li>
+<li><p><strong>卷积的意义</strong>：时延、倍乘、叠加</p>
+</li>
+<li><p>由于其本质是时延、倍乘、叠加，故要对LTI系统使用，非线性系统无法使用，对于线性时变系统其实也可以用卷积，只是冲激函数变得更复杂（由观测时间与激励产生时间的差值决定）</p>
+<p>（<strong>一句话说明卷积，就是你在过去的每个时刻做的惹女朋友的事情，对现在吵架造成叠加影响。</strong>惹的不同时刻就是时延，在那个时刻惹她造成的影响就是系统的冲激响应，最终会叠加到当前时刻）（只不过女朋友可能是时变系统，不同时刻惹产生的效果不太一样，不过只不过是冲激函数更复杂，作用原理还是一样的）</p>
+</li>
+<li><p>运算方法：图解、列表、对位相加</p>
+</li>
 </ul>
 </li>
-<li><p>与人工智能关系</p>
-<p>人工智能的分支</p>
-<p><img src="/2022/11/15/learn-AI/image-20221115083201194.png" srcset="/img/loading.gif" lazyload alt="image-20221115083201194"></p>
-<p>人工智能：智能主题三要素：感受器,执行器，转换函数（将感知映射为动作）</p>
-<p>机器学习：</p>
+<li><p>相关:描述信号与信号的相似程度<br>$$<br>r_{xy}(m)&#x3D;\sum_{n&#x3D;-∞}^{∞} x(n)(n-m)&#x3D;x(m)*y(-m)<br>$$</p>
 </li>
-<li><p>准则：</p>
+<li><p>平移（课件写的很清楚）</p>
+<p>根据不同的延拓方式，可以将平移和反转分成两种类别：</p>
+<p>补零延拓;线性平移、线性翻转</p>
+<p>周期延拓：循环（圆周）平移、循环（圆周）翻转</p>
+</li>
+</ul>
+<h4 id="序列矢量表示与空间信号"><a href="#序列矢量表示与空间信号" class="headerlink" title="序列矢量表示与空间信号"></a>序列矢量表示与空间信号</h4><p>武大课件有涉及到，同寄没讲，暂时留个坑以后补</p>
+<h3 id="离散时间系统"><a href="#离散时间系统" class="headerlink" title="离散时间系统"></a>离散时间系统</h3><p><img src="/2022/11/18/learn-DSP/image-20221010195959536.png" srcset="/img/loading.gif" lazyload alt="image-20221010195959536"></p>
+<p>重点是线性，时不变，因果性，稳定性的判读，一般都有两个判断方法，一个是从定义，一个是利用冲激响应</p>
 <ul>
-<li>可能近似正确</li>
-<li>没有免费午餐定理</li>
-</ul>
+<li><p>线性:</p>
+<p><img src="/2022/11/18/learn-DSP/image-20221118113624536.png" srcset="/img/loading.gif" lazyload alt="image-20221118113624536"></p>
 </li>
-</ul>
-<h2 id="发展"><a href="#发展" class="headerlink" title="发展"></a>发展</h2><h2 id="任务、范式、框架"><a href="#任务、范式、框架" class="headerlink" title="任务、范式、框架"></a>任务、范式、框架</h2><p>​		<strong>机器学习的三个视角，学习的任务（Task）、范式（Paradigms）、框架（Frameworks）</strong></p>
+<li><p>时不变（移不变）</p>
+<p><img src="/2022/11/18/learn-DSP/image-20221118113751406.png" srcset="/img/loading.gif" lazyload alt="image-20221118113751406"></p>
+<p>系统的性质与时间无关，只与输入有关</p>
+</li>
+<li><p>因果：</p>
+<p>系统输出不会超前于输入发生改变：输入没有发生变化之前，那 么系统输出肯定不变。</p>
 <ul>
-<li><p>学习任务：机器学习可以解决的问题（做什么）</p>
-<p><img src="/2022/11/15/learn-AI/image-20221115081127960.png" srcset="/img/loading.gif" lazyload alt="image-20221115081127960"></p>
-</li>
-<li><p>学习范式：机器学习的情景模式或者算法体系。区分依据是如何从数据中学习以及和环境互动（什么形式）</p>
-<p><img src="/2022/11/15/learn-AI/image-20221115081705639.png" srcset="/img/loading.gif" lazyload alt="image-20221115081705639"></p>
-</li>
-<li><p>学习框架：基于某种学习范式去完成某个学习任务的算法设计或者概念框架。（用什么方法去做）</p>
-<p><img src="/2022/11/15/learn-AI/image-20221115082152271.png" srcset="/img/loading.gif" lazyload alt="image-20221115082152271"></p>
-</li>
+<li>冲激响应判断：冲激响应序列 h（n）&#x3D;0，当n&lt;0</li>
 </ul>
-<p><img src="/2022/11/15/learn-AI/image-20221115082847104.png" srcset="/img/loading.gif" lazyload alt="image-20221115082847104"></p>
-<h2 id="学习任务"><a href="#学习任务" class="headerlink" title="学习任务"></a>学习任务</h2><p><img src="/2022/11/15/learn-AI/image-20221115083044333.png" srcset="/img/loading.gif" lazyload alt="image-20221115083044333"></p>
-<p><img src="/2022/11/15/learn-AI/image-20221115083316157.png" srcset="/img/loading.gif" lazyload alt="image-20221115083316157"></p>
+</li>
+<li><p>稳定性BIBO：</p>
+<p>输入有界则输出有界</p>
 <ul>
-<li>分类：</li>
+<li>冲激响应满足绝对可和（充要条件），代表单位冲击的影响有限<br>$$<br>h(n)&#x3D;\sum _{n&#x3D;-∞}^{∞}|h(n)|&lt;∞<br>$$</li>
 </ul>
-<p>  三要素：1）数据划分类别2）类别已知3）用样本进行训练</p>
+</li>
+</ul>
+<h3 id="常系数线性差分方程"><a href="#常系数线性差分方程" class="headerlink" title="常系数线性差分方程"></a>常系数线性差分方程</h3><ul>
+<li><p><img src="/2022/11/18/learn-DSP/image-20221118114447638.png" srcset="/img/loading.gif" lazyload alt="image-20221118114447638"></p>
+<p>和常系数微分方程解法类似</p>
+<ul>
+<li><p>齐次解：</p>
+<p><img src="/2022/11/18/learn-DSP/image-20221118114537422.png" srcset="/img/loading.gif" lazyload alt="image-20221118114537422"></p>
+</li>
+<li><p>特解：</p>
+<p><img src="/2022/11/18/learn-DSP/image-20221118114626416.png" srcset="/img/loading.gif" lazyload alt="image-20221118114626416"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Z变换"><a href="#Z变换" class="headerlink" title="Z变换"></a>Z变换</h2><h3 id="常用Z变换"><a href="#常用Z变换" class="headerlink" title="常用Z变换"></a>常用Z变换</h3><p><img src="/2022/11/18/learn-DSP/image-20221010202606205.png" srcset="/img/loading.gif" lazyload alt="image-20221010202606205"></p>
+<h1 id="Matlab部分"><a href="#Matlab部分" class="headerlink" title="Matlab部分"></a>Matlab部分</h1><h2 id="离散序列与系统"><a href="#离散序列与系统" class="headerlink" title="离散序列与系统"></a>离散序列与系统</h2><ul>
+<li><p>stem（）：绘制离散序列</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-number">1</span> x = [<span class="hljs-number">1</span> <span class="hljs-number">-2.4</span> <span class="hljs-number">1</span> <span class="hljs-number">0</span> <span class="hljs-number">2</span>];<br><span class="hljs-number">2</span> n = [<span class="hljs-number">0</span>:<span class="hljs-number">10</span>];<br><span class="hljs-number">3</span> y = <span class="hljs-number">2</span>*n.*<span class="hljs-number">0.9</span>.^n;<br><span class="hljs-number">4</span> <span class="hljs-built_in">figure</span>(<span class="hljs-number">1</span>),subplot(<span class="hljs-number">121</span>);stem(x);<br><span class="hljs-number">5</span> subplot(<span class="hljs-number">122</span>),stem(y);<br></code></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>离散时间系统求输出</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs matlab">filter #求系统的解<br>impz # 系统冲激响应<br>stepz # 系统阶跃响应<br></code></pre></td></tr></table></figure></li>
+</ul>
 
                 
               </div>
@@ -368,8 +410,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>AI基础</div>
-      <div>https://www.fufudezheng.site/2022/11/15/learn-AI/</div>
+      <div>数字信号处理</div>
+      <div>https://www.fufudezheng.site/2022/11/18/learn-DSP/</div>
     </div>
     <div class="license-meta">
       
@@ -381,7 +423,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>November 15, 2022</div>
+          <div>November 18, 2022</div>
         </div>
       
       
@@ -413,18 +455,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/11/17/learn-pyqt/" title="learn_pyqt">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">learn_pyqt</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/11/14/read-polan/" title="一些零零散散的句子">
-                        <span class="hidden-mobile">一些零零散散的句子</span>
+                      <a href="/2022/11/17/learn-pyqt/" title="learn_pyqt">
+                        <span class="hidden-mobile">learn_pyqt</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -478,6 +514,12 @@
 
 
   
+
+
+  
+  
+
+
 
 
 
@@ -671,6 +713,49 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 
