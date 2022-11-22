@@ -43,8 +43,9 @@
 <meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118172629131.png">
 <meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118172754213.png">
 <meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118172834280.png">
+<meta property="og:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221122161604828.png">
 <meta property="article:published_time" content="2022-11-18T02:24:31.000Z">
-<meta property="article:modified_time" content="2022-11-18T09:46:37.072Z">
+<meta property="article:modified_time" content="2022-11-22T08:16:05.933Z">
 <meta property="article:author" content="ffdz">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.fufudezheng.site/2022/11/18/learn-DSP/image-20221118105340892.png">
@@ -451,7 +452,7 @@
 <p>只要知道傅里叶变换的一部分：<br>$$<br>Re[X(e^{jw})]\Rightarrow x_e(n) \Rightarrow x(n);\<br>或者Im[X(e^{jw})]\Rightarrow [x_o(n)+x(0)] \Rightarrow x(n);\<br>$$<br>就可以求得原始序列，对于因果序列，其实其包含了很多的冗余信息。</p>
 </li>
 </ul>
-<h3 id="周期性序DTFT"><a href="#周期性序DTFT" class="headerlink" title="周期性序DTFT"></a>周期性序DTFT</h3><p>占坑</p>
+<h3 id="周期性序DTFT"><a href="#周期性序DTFT" class="headerlink" title="周期性序DTFT"></a>周期性序DTFT</h3><p><img src="/2022/11/18/learn-DSP/image-20221122161604828.png" srcset="/img/loading.gif" lazyload alt="image-20221122161604828"></p>
 <h2 id="4-离散线性移不变系统的w域分析"><a href="#4-离散线性移不变系统的w域分析" class="headerlink" title="4.离散线性移不变系统的w域分析"></a>4.离散线性移不变系统的w域分析</h2><h2 id="5-DFT-离散傅里叶变换"><a href="#5-DFT-离散傅里叶变换" class="headerlink" title="5.DFT(离散傅里叶变换)"></a>5.DFT(离散傅里叶变换)</h2><h2 id="6-FFT-快速傅里叶变换"><a href="#6-FFT-快速傅里叶变换" class="headerlink" title="6.FFT(快速傅里叶变换)"></a>6.FFT(快速傅里叶变换)</h2><h1 id="Matlab部分"><a href="#Matlab部分" class="headerlink" title="Matlab部分"></a>Matlab部分</h1><h2 id="离散序列与系统"><a href="#离散序列与系统" class="headerlink" title="离散序列与系统"></a>离散序列与系统</h2><ul>
 <li><p>stem（）：绘制离散序列</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-number">1</span> x = [<span class="hljs-number">1</span> <span class="hljs-number">-2.4</span> <span class="hljs-number">1</span> <span class="hljs-number">0</span> <span class="hljs-number">2</span>];<br><span class="hljs-number">2</span> n = [<span class="hljs-number">0</span>:<span class="hljs-number">10</span>];<br><span class="hljs-number">3</span> y = <span class="hljs-number">2</span>*n.*<span class="hljs-number">0.9</span>.^n;<br><span class="hljs-number">4</span> <span class="hljs-built_in">figure</span>(<span class="hljs-number">1</span>),subplot(<span class="hljs-number">121</span>);stem(x);<br><span class="hljs-number">5</span> subplot(<span class="hljs-number">122</span>),stem(y);<br></code></pre></td></tr></table></figure>
